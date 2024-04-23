@@ -6,7 +6,6 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import test.Phoenix.task.dtos.UserCreate;
-import test.Phoenix.task.dtos.UserView;
 import test.Phoenix.task.exceptions.PasswordsNotMatchException;
 import test.Phoenix.task.exceptions.UserAlreadyExistsException;
 import test.Phoenix.task.mappers.UserMapper;
