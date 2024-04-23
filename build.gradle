@@ -38,5 +38,3 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
-
-task stage(dependsOn: ['clean', 'installDist'])
