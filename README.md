@@ -37,7 +37,9 @@ sudo docker-compose down
 
 ## Usage
 
-There several endpoints, only one main endpoint have simple html hello page
+All entities extend from abstract base entity, in REST API, dtos are transfered. 
+
+There several REST API endpoints, only one main endpoint have simple html hello page
 
 GET
 ```
@@ -139,4 +141,4 @@ GET
 ```
 http://localhost:8080/news
 ```
-You will get list of JSON objects NewsView, by default 
+You will get list of JSON objects NewsView, by default it is empty
