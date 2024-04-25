@@ -41,7 +41,8 @@ public class SecurityConfig
                 .usernameParameter("email")
                 .passwordParameter("password")
                 .defaultSuccessUrl("/", true)
-                .failureUrl("/sign-in?error"));
+
+                .failureUrl("/error"));
 
         return http.build();
 

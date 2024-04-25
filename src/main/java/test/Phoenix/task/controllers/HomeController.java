@@ -11,4 +11,10 @@ public class HomeController
     {
         return "home";
     }
+
+    @GetMapping("/error")
+    public String not_auth()
+    {
+        return "error";
+    }
 }
