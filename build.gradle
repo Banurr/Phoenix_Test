@@ -36,15 +36,6 @@ dependencies {
 	testImplementation 'org.springframework.security:spring-security-test'
 }
 
-springBoot {
-	mainClassName = 'TaskApplication' // Specify your main application class here
-}
-
-jar {
-	manifest {
-		attributes 'Main-Class': 'TaskApplication' // Specify your main application class here
-	}
-}
 
 tasks.named('test') {
 	useJUnitPlatform()
