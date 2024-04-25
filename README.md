@@ -66,8 +66,10 @@ JSON file example
 ```
 
 If user created successfully you will get message with 200 OK response
+
 Otherwise:
 if user email already exists, you will get appropriate error message and appplication will throw exception and handle it
+
 if user passwords are not equal , same results as in previous example
 
 ## User authentication works with default Spring Security
@@ -82,6 +84,7 @@ http://localhost:8080/auth
 For Insomnia use Form URL encoded
 
 name : email  -> your value
+
 name : password  -> your value
 
 In success authentication you will be redirected to simple html hello page
@@ -125,6 +128,7 @@ http://localhost:8080/applications/id
 ```
 
 If application with this id exists, you will get single JSON object of ApplicationView
+
 otherwise you will get bad request: Applicaton was not found and exception raised
 
 ## NewsController
@@ -135,4 +139,4 @@ GET
 ```
 http://localhost:8080/news
 ```
-You will get list of JSON objects NewsView
+You will get list of JSON objects NewsView, by default 
