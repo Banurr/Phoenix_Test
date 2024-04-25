@@ -7,7 +7,7 @@ plugins {
 jar {
 	manifest {
 		attributes(
-				'Main-Class': 'Phoenix.task.TaskApplication'
+				'Main-Class': 'test.Phoenix.TaskApplication'
 		)
 	}
 }
