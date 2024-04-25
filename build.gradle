@@ -42,7 +42,7 @@ springBoot {
 
 jar {
 	manifest {
-		attributes 'Main-Class': 'test.Phoenix.TaskApplication' // Specify your main application class here
+		attributes 'Main-Class': 'TaskApplication' // Specify your main application class here
 	}
 }
 
