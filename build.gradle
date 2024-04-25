@@ -37,7 +37,7 @@ dependencies {
 }
 
 springBoot {
-	mainClassName = 'test.Phoenix.TaskApplication' // Specify your main application class here
+	mainClassName = 'TaskApplication' // Specify your main application class here
 }
 
 jar {
