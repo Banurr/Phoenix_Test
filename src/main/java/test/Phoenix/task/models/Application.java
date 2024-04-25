@@ -17,5 +17,5 @@ public class Application extends BaseEntity
 
     private int quantity;
 
-    private int phone;
+    private String phone;
 }
