@@ -6,11 +6,7 @@ plugins {
 
 apply plugin: 'java'
 
-jar {
-	manifest {
-		attributes 'Main-Class': 'test.Phoenix.task.TaskApplication'
-	}
-}
+
 
 
 
@@ -44,6 +40,12 @@ dependencies {
 	annotationProcessor 'org.mapstruct:mapstruct-processor:1.5.5.Final'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'org.springframework.security:spring-security-test'
+}
+
+jar {
+	manifest {
+		attributes 'Main-Class': 'test.Phoenix.task.TaskApplication'
+	}
 }
 
 
