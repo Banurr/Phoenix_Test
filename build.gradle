@@ -36,12 +36,6 @@ dependencies {
 	testImplementation 'org.springframework.security:spring-security-test'
 }
 
-jar {
-	manifest {
-		attributes 'Main-Class': 'test.Phoenix.TaskApplication'
-	}
-}
-
 
 tasks.named('test') {
 	useJUnitPlatform()
